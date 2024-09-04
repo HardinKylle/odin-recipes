@@ -1,14 +1,41 @@
-h1{
-    text-align: center;
-    font-size:50px;
-    background-color: antiquewhite;
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
 }
-
-ul,li{
-    text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
 li{
     list-style: none;
-    margin:10px;
+    padding-bottom: 8px;
+}
+a{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-body{
+    background-color:rgb(255, 248, 208);
+}
+.main-title{
+    text-align: center;
+    font-size:50px;
+    background-color: rgb(241, 184, 108);
+}
+.main-container{
+    border:3px double black;
+    padding: 18px;
+    margin:10px auto;
+    text-align: center;
+    width: 700px;
+    background-color: rgb(139, 230, 207);
+}
+l
+
+.container{
+    background-color: honeydew;
+    border: 1px solid black;
 }
 
