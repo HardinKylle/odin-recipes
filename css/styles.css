@@ -17,12 +17,12 @@ a{
 }
 
 .main-body{
-    background-color:rgb(255, 248, 208);
+    background-color: rgba(255, 249, 230, 0.986) ;
 }
 .main-title{
     text-align: center;
     font-size:50px;
-    background-color: rgb(241, 184, 108);
+    background-color: rgb(29, 170, 235);
 }
 .main-container{
     border:3px double black;
@@ -32,10 +32,40 @@ a{
     width: 700px;
     background-color: rgb(139, 230, 207);
 }
-l
 
-.container{
-    background-color: honeydew;
-    border: 1px solid black;
+.recipe-title{
+    color:rgb(17, 127, 179);
+}
+
+.recipe-body{
+    background-color: rgba(255, 249, 230, 0.986) ;
+}
+.recipe-container{
+    border:3px double black;
+    padding: 18px;
+    margin:10px auto;
+    text-align: center;
+    width: 1000px;
+    background-color: rgb(163, 233, 215);
+}
+
+.content-container{
+    margin-bottom: 8px;
+}
+.recipe-subheading{
+    text-align: left;
+    padding-left: 30px;
+    color: orange;
+}
+
+.ingredient-list li{
+    list-style: disc;
+    list-style-position: inside;
+    
+}
+
+.step-list li{
+    list-style:decimal;
+    list-style-position: inside;
 }
 
